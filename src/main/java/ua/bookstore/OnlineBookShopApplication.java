@@ -30,7 +30,7 @@ public class OnlineBookShopApplication {
                 book.setIsbn("ISBN 1");
 
                 bookService.save(book);
-                bookService.findAll();
+                System.out.println(bookService.findAll());
             }
         };
     }
